@@ -1,0 +1,13 @@
+List of libraries which we will use in our project
+
+import pygame
+from pygame.locals import *
+from mingus.core import notes, chords
+from mingus.containers import *
+from mingus.midi import fluidsynth
+from os import sys
+import glob
+import os
+import re
+import signal
+import time
